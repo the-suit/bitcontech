@@ -131,12 +131,14 @@ header a:hover{
 /*BOXES */
 #boxes{
     margin-top: 60px;
+    display: flex;
+    gap: 10px;
 }
 #boxes .box{
     float: left;
-    text-align: center;
+    text-align: left;
     width: 20%;
-    padding: 20px;
+    padding: 10px;
 }
 #boxes .box img{
     width: 80px;
@@ -356,7 +358,7 @@ article#main-col{
 }
 
 #refreshButton {
-    background-color: #08e5ff
+    background-color: #08e5ff;
     border: 0px;
 font-weight: bold;
 }
