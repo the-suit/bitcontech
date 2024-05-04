@@ -4,10 +4,11 @@ body{
     font-family: /*Arial, Helvetica,*/ 'Roboto', sans-serif;
     line-height: 1.5;
     font-size: 16px;
+    color: #2e338c;
     /* font: 16px/1.5 Arial, Helvitica; ( short cut ) */
     padding: 0px;
     margin: 0 px;
-    background-color: #cfeffa;
+    background-color: #ffffff;
 }
 
 /* Global */
@@ -22,16 +23,16 @@ ul{
 }
 .button_1{
     height: 38px;
-    background: red;
+    background: #f22222;
     border: none;
     padding: 0 20px 0 20px;
     color: white;
 }
 .dark{
     padding: 15px;
-    background: #35424a;
+    background: #2e338c;
     color: white;
-    margin-top: 10px;
+	margin-top: 10px;
     margin-bottom: 10px;
 
 }
@@ -49,7 +50,7 @@ header{
     color: white;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: thick double red;
+    border-bottom: thick double #f21d2f;
 }
 
 header a{
@@ -77,7 +78,7 @@ header nav{
     margin-top: 10px;
 }
 header .highlight, header .current a{
-    color: red;
+    color: #f21d2f;
     font-weight: bold;
 }
 header a:hover{
@@ -87,10 +88,10 @@ header a:hover{
 }
 
 #showcase{
-    min-height: 400px;
+    min-height: 700px;
     text-align: center;
     color: white;
-    background: url('./images/showcase.jpg') no-repeat 0 -400px;
+    background: url('./images/showcase1.jpg') no-repeat 0 -100px;
 }
 #showcase h1{
     margin-top: 100px;
@@ -104,7 +105,7 @@ header a:hover{
 #contactform{
     padding: 25px;
     color: #ffffff;
-    background: #35424a;
+    background: #2e338c;
     min-height: 400px;
 }
 
@@ -112,7 +113,7 @@ header a:hover{
 #newsletter{
     padding: 25px;
     color: #ffffff;
-    background: #35424a;
+    background: #2e338c;
     min-height: 5px;
 }
 #newsletter h1{
@@ -206,7 +207,7 @@ header a:hover{
  .details{
 	 width: 300px;
 	 height:106px;
-	 color:black;
+	 color:#2e338c;
 	 background:white;
 	 padding:0px;
 	 float:left;
@@ -235,7 +236,7 @@ header a:hover{
  .details p{
 	font-size:13px;
 	font-family: Arial;
-	 color:black;
+	 color:#2e338c;
 	 font-style:normal;
 	 margin-top:1rem;
 	 padding:0;
@@ -248,7 +249,7 @@ header a:hover{
 	 position: relative;
      width: 300px;
 	 height:106px;
-	 color: black;
+	 color: #2e338c;
 	 background:white;
 	 padding:0px;
 	 float:right;
@@ -275,7 +276,7 @@ header a:hover{
  .socials p{
 	font-size:13px;
 	font-family: Arial;
-	 color:black;
+	 color:#2e338c;
 	 font-style:normal;
 	 margin-top:1rem;
 	 padding:0;
@@ -287,7 +288,9 @@ header a:hover{
 /*sidebar */
 aside#sidebar{
     float: right;
-    width: 30%;
+	position: relative;
+    display: inline;
+    width: 40%;
     margin-top: 10px;
 }
 aside#sidebar .quote input, aside#sidebar .quote textarea{
@@ -296,7 +299,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 article#main-col{
     float: left;
-    width: 65%;
+    width: 50%;
 }
 
 /* Google reCAPTCHA */
@@ -342,7 +345,7 @@ article#main-col{
     padding:1rem 1rem;
 	color:#ffffff;
 	text-transform:uppercase;
-	border:2px dotted red;
+	border:2px dotted #f22222;
 	background:black;
 	cursor:pointer;
 	border-radius:15px;
@@ -376,7 +379,7 @@ footer{
     margin-top: 0px;
     margin-bottom: 0px;
     color: white;
-    background: red;
+    background: #f22222;
     text-align: center;
 }
 
@@ -424,3 +427,48 @@ ul#services li{
   
 
   }
+
+  .textInfo {
+    border: solid 1px lightblue;
+  }
+  
+  .textInfo:hover {
+    background-color: #e8a4c9;
+    color: #fff;
+  }
+  
+  #pastries:hover + #textInfo .innerText {
+    display: block;
+  }
+  
+  .innerText {
+    display: none;
+  }
+  
+  .item {
+    background-color: #2e3c8c;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    gap: 10px;
+  }
+  
+  .item:hover {
+    background-color: #f21d2f;
+  }
+
+  .pastries {
+    display: flex;
+    gap: 10px;
+  }
+  
+ /* h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+  }*/
+
+  
